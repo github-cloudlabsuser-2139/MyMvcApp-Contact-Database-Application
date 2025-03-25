@@ -1,0 +1,6 @@
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.csproj.AssemblyReference.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.AssemblyInfoInputs.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.AssemblyInfo.cs
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.csproj.CoreCompileInputs.cache
+C:\Users\azureuser\GitHub Copilot\MyMvcApp-Contact-Database-Application\MyMvcApp.Tests\obj\Debug\net8.0\MyMvcApp.Tests.sourcelink.json
