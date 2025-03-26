@@ -146,4 +146,20 @@ public class UserController : Controller
             return View();
         }
     }
+
+    // GET: User/SearchByName?name=John
+    public ActionResult SearchByName(string name)
+    {
+        // Busca usuarios cuyo nombre contenga el texto proporcionado (ignorando mayúsculas/minúsculas)
+        var users = userlist.Where(u => u.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+
+        // Si no se encuentran usuarios, devuelve una vista vacía o un mensaje
+        if (users == null || users.Count == 0)
+        {
+            return NotFound();
+        }
+
+        // Devuelve la vista con los usuarios encontrados
+        return View(users);
+    }
 }
