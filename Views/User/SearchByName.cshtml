@@ -1,0 +1,42 @@
+@model IEnumerable<MyMvcApp.Models.User>
+
+@{
+    ViewBag.Title = "Resultados de la búsqueda";
+}
+
+<h2>Resultados de la búsqueda</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>
+                        <a href="@Url.Action("Details", "User", new { id = user.Id })">Detalles</a> |
+                        <a href="@Url.Action("Edit", "User", new { id = user.Id })">Editar</a> |
+                        <a href="@Url.Action("Delete", "User", new { id = user.Id })">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No se encontraron usuarios con el nombre especificado.</p>
+}
+
+<p>
+    <a href="@Url.Action("Index", "User")" class="btn btn-secondary">Volver a la lista</a>
+</p>

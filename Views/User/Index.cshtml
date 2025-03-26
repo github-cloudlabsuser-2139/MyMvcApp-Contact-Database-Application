@@ -9,6 +9,15 @@
 <p>
     @Html.ActionLink("Create New", "Create", "User")
 </p>
+
+<!-- Formulario para buscar usuarios por nombre -->
+<form asp-action="SearchByName" method="get" class="form-inline mb-3">
+    <div class="form-group">
+        <input type="text" name="name" class="form-control form-control-sm" style="width: 200px;" placeholder="Buscar por nombre" />
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+</form>
+
 <table class="table">
     <tr>
         <th>

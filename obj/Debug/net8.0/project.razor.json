@@ -19369,6 +19369,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Databse-Application\\Views\\User\\SearchByName.cshtml",
+      "TargetPath": "Views\\User\\SearchByName.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\azureuser\\GitHub Copilot\\MyMvcApp-Contact-Databse-Application\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
